@@ -1,4 +1,15 @@
 
+
+
+
+h1, p {
+	
+	
+	text-align: center;
+
+}
+
+
 body {
 	background-image: linear-gradient(rgb(0, 127, 174), rgb(58, 0, 174));
 	background-repeat: no-repeat;
@@ -10,11 +21,8 @@ body {
 	height: 100%;
 }
 
-h1, p, {
-	
-	vertical-align: 40%;
 
-}
+
 
 h1 {
 	font-family: Courier New;
@@ -23,14 +31,12 @@ h1 {
 }
 
 p {
-	font-family: Garamond body copy;
+	font-family: courier new;
 }
 
 .position {
 	display : block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 30%;
+	width: 15%;
 }
-
-
