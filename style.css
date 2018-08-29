@@ -2,11 +2,44 @@
 
 
 
-h1, p {
+h1, p, img {
 	
-	
+	position: relative;
+	top: 200px;
 	text-align: center;
+}
 
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+ul {
+
+	position: relative;
+	top: -8px;
+}
+
+li {
+	float: left;
+	display: inline;
+	width: 370px;
+}
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    margin: -10px;
+    text-decoration: none;
 }
 
 
@@ -15,6 +48,8 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
+
+
 
 
 body {
@@ -30,9 +65,14 @@ h1 {
 
 }
 
+
+
 p {
 	font-family: courier new;
+
 }
+
+
 
 .position {
 	display : block;
