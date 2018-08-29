@@ -2,14 +2,18 @@
 
 
 
-h1, p, img {
+h1, h2, p, img {
 	
 	position: relative;
-	top: 200px;
-	text-align: center;
+	top: 50px;
+	text-align: left ;
 }
 
 
+nav {
+
+	
+}
 
 
 ul {
@@ -18,6 +22,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: black;
+
 }
 
 ul {
@@ -44,7 +49,7 @@ li a {
 
 
 body {
-	background-image: linear-gradient(rgb(0, 127, 174), rgb(58, 0, 174));
+	background-image: linear-gradient(rgb(37, 159, 240), rgb(25, 131, 236));
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
@@ -69,6 +74,11 @@ h1 {
 
 p {
 	font-family: courier new;
+	margin-left: 500px;
+	margin-right: 500px;
+	position: relative;
+	top: -150px;
+
 
 }
 
@@ -76,7 +86,23 @@ p {
 
 .position {
 	display : block;
-	margin-left: auto;
 	margin-right: auto;
 	width: 15%;
+	border: 10px solid green;
 }
+
+.penguin {
+
+	display : block;
+	margin-right: auto;
+	width: 15%;
+	border:10px solid blue;
+
+}
+
+.navbar {
+	
+	font-family: Times New Roman ;
+
+}
+
